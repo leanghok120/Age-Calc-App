@@ -45,6 +45,25 @@ body {
   gap: 30px;
 }
 
+.divider-section {
+  display: flex;
+  align-items: center;
+}
+
+.divider {
+  width: 90%;
+  height: 2px;
+  background-color: var(--light-grey);
+}
+
+.arrow-btn {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--purple);
+}
+
 .input p {
   text-transform: uppercase;
   font-weight: 600;
