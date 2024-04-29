@@ -1,3 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --purple: hsl(259, 100%, 65%);
+  --light-red: hsl(0, 100%, 67%);
+  --white: hsl(0, 0%, 100%);
+  --off-white: hsl(0, 0%, 94%);
+  --light-grey: hsl(0, 0%, 86%);
+  --smoke-grey: hsl(0, 1%, 44%);
+  --off-black: hsl(0, 0%, 8%);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--off-white);
+}
+
+.container {
+  background-color: var(--white);
+  width: 52rem;
+  height: 550px;
+  border-radius: 25px;
+  border-bottom-right-radius: 175px;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.input-section {
+  display: flex;
+  gap: 30px;
+}
+
+.input p {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: var(--off-black);
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+
+.input input {
+  width: 10rem;
+  height: 50px;
+  border-radius: 8px;
+  border: solid var(--light-grey) 1px;
+  padding: 35px 30px 35px 25px;
+}
+
+.input input::placeholder {
+  font-weight: 900;
+  font-size: 28px;
+  color: var(--smoke-grey);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
