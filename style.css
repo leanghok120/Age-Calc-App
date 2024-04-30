@@ -75,20 +75,36 @@ body {
 
 .input input {
   width: 10rem;
-  height: 50px;
+  height: 80px;
   border-radius: 8px;
   border: solid var(--light-grey) 1px;
   padding: 35px 30px 35px 25px;
 }
 
+.input input:valid {
+  font-size: 32px;
+  font-weight: 900;
+}
+
 .input input::placeholder {
   font-weight: 900;
-  font-size: 28px;
+  font-size: 32px;
   color: var(--smoke-grey);
 }
 
+.result-text {
+  font-size: 80px;
+  font-weight: 800;
+  color: var(--off-black);
+  line-height: 4.8rem;
+}
+
+.num-text {
+  color: var(--purple);
+}
+
 .attribution {
-  font-size: 11px;
+  font-size: 16px;
   text-align: center;
 }
 
