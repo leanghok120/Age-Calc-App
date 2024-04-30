@@ -25,32 +25,32 @@
       <section class="input-section">
         <div class="input" id="day">
           <p class="placeholder-text">Day</p>
-          <input type="text" placeholder="DD" />
+          <input type="text" placeholder="DD" id="day-input" />
         </div>
         <div class="input" id="month">
           <p class="placeholder-text">Month</p>
-          <input type="text" placeholder="MM" />
+          <input type="text" placeholder="MM" id="month-input" />
         </div>
         <div class="input" id="year">
           <p class="placeholder-text">Year</p>
-          <input type="text" placeholder="YYYY" />
+          <input type="text" placeholder="YYYY" id="year-input" />
         </div>
       </section>
       <section class="divider-section">
         <div class="divider"></div>
-        <button class="arrow-btn">
+        <button id="calc-btn">
           <img src="assets/images/icon-arrow.svg" alt="icon arrow" />
         </button>
       </section>
       <section class="result-section">
         <h1 class="result-text" id="years-result">
-          <span class="num-text">- -</span> years
+          <span class="num-text" id="years-text">- -</span> years
         </h1>
         <h1 class="result-text" id="months-result">
-          <span class="num-text">- -</span> months
+          <span class="num-text" id="months-text">- -</span> months
         </h1>
         <h1 class="result-text" id="days-result">
-          <span class="num-text">- -</span> days
+          <span class="num-text" id="days-text">- -</span> days
         </h1>
       </section>
     </main>
@@ -60,5 +60,7 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Leanghok</a>.
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>

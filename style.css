@@ -56,12 +56,13 @@ body {
   background-color: var(--light-grey);
 }
 
-.arrow-btn {
+#calc-btn {
   width: 90px;
   height: 90px;
   border-radius: 50%;
   border: none;
   background-color: var(--purple);
+  cursor: pointer;
 }
 
 .input p {
@@ -93,10 +94,11 @@ body {
 }
 
 .result-text {
-  font-size: 80px;
+  font-size: 85px;
   font-weight: 800;
   color: var(--off-black);
-  line-height: 4.8rem;
+  line-height: 5.3rem;
+  font-style: italic;
 }
 
 .num-text {
