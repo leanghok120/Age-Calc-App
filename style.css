@@ -31,13 +31,14 @@ body {
 .container {
   background-color: var(--white);
   width: 52rem;
-  height: 550px;
+  height: 570px;
   border-radius: 25px;
   border-bottom-right-radius: 175px;
   padding-left: 4rem;
   padding-right: 4rem;
   padding-top: 55px;
   padding-bottom: 55px;
+  margin-bottom: 10px;
 }
 
 .input-section {
@@ -62,7 +63,25 @@ body {
   border-radius: 50%;
   border: none;
   background-color: var(--purple);
+  transition: all 0.25s;
   cursor: pointer;
+}
+
+#calc-btn:hover {
+  background: var(--off-black);
+}
+
+#calc-btn:active {
+  opacity: 0.6;
+}
+
+.input .error {
+  text-transform: lowercase;
+  color: var(--light-red);
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0px;
+  font-size: 14px;
 }
 
 .input p {
@@ -80,6 +99,12 @@ body {
   border-radius: 8px;
   border: solid var(--light-grey) 1px;
   padding: 35px 30px 35px 25px;
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+
+.input input:hover {
+  border-color: var(--purple);
 }
 
 .input input:valid {
@@ -94,7 +119,7 @@ body {
 }
 
 .result-text {
-  font-size: 85px;
+  font-size: 90px;
   font-weight: 800;
   color: var(--off-black);
   line-height: 5.3rem;
@@ -112,4 +137,9 @@ body {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+  transition: all 0.25s;
+}
+
+.attribution a:hover {
+  color: var(--purple);
 }
