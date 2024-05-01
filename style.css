@@ -126,6 +126,55 @@ body {
   font-style: italic;
 }
 
+@media screen and (max-width: 650px) {
+  .container {
+    width: 93%;
+    height: 60%;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .input input {
+    width: 100%;
+    padding: 15px 10px 15px 5px;
+  }
+
+  .input-section {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .error {
+    width: inherit;
+  }
+
+  .divider-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #calc-btn {
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+    margin-right: 5px;
+  }
+
+  #calc-btn img {
+    width: 50%;
+  }
+
+  .result-text {
+    font-size: 64px;
+  }
+}
+
 .num-text {
   color: var(--purple);
 }
